@@ -1,0 +1,23 @@
+#Plugin Name Below
+name: SimpleFeedByMTwins
+#Author Below
+author: MTwins
+#Your Main Class Below
+main: SimpleFeed\main
+#Version Of The Plugin (isnt important) Perfer 1.0.0 Though
+version: 1.0.0
+#API The Plugin Will Run On
+api:
+- 3.0.0
+- 4.0.0
+#Plugin Description Not Command Description
+description: "Use /feed (player)"
+#Commands Below
+commands:
+   feed:
+   usage: /feed (player)
+   permission: feed.player.use
+#Permissions Below
+ permissions:
+    feed:
+    permission: feed.player.use
